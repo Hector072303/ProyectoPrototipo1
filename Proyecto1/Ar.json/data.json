@@ -1,0 +1,261 @@
+{
+  "cursos": [
+    {
+      "id": 1,
+      "nombre": "Pequeños Héroes del Reciclaje",
+      "descripcion": "Este curso está diseñado para enseñar a los niños, de forma divertida y sencilla, la importancia del reciclaje y el cuidado del medio ambiente. A través de videos dinámicos, ejemplos prácticos y actividades fáciles, los niños aprenderán cómo separar los residuos, reutilizar materiales y convertirse en pequeños héroes que ayudan a salvar el planeta.\nEl contenido está organizado de manera progresiva, iniciando desde conceptos básicos hasta acciones prácticas que pueden aplicar en casa, la escuela y su entorno.",
+      "categoria": "Infantil",
+      "duracion_total": "0:55:57",
+      "imagen": "../img/Cursoinfantil.jpg",
+      "videos": [
+        {
+          "id": 1,
+          "nombre": "¿Por qué el Reciclaje es tan Importante? | Videos Educativos Aula365",
+          "titulo": "¿Por qué el Reciclaje es tan Importante?",
+          "descripcion": "Este video introduce a los niños en el concepto del reciclaje y su importancia para el cuidado del medio ambiente. A través de una conversación sencilla y ejemplos cotidianos, se explica qué es la basura y por qué es necesario separarla según su tipo, como vidrio, papel y plástico.\n\nAdemás, se presentan ideas prácticas como la reutilización de residuos orgánicos mediante procesos naturales, mostrando cómo estos pueden transformarse en recursos útiles para las plantas. También se destaca el impacto que generan los desechos en las ciudades y cómo pequeñas acciones pueden ayudar a reducir la contaminación.\n\nEste contenido busca fomentar hábitos responsables, enseñando que clasificar los residuos es el primer paso para reciclar y contribuir al bienestar del planeta.",
+          "duracion": "0:03:19",
+          "youtube": "https://www.youtube-nocookie.com/embed/-UFFFUTMlCw?si=Uw6xEynFVwX1b2G-",
+          "autor": {
+            "nombre": "FlexFlix Kids en Español",
+            "canal": "FlexFlix Kids en Español",
+            "url": "https://www.youtube.com/@FlexFlixKids",
+            "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+            "verificado": true
+          }
+        },
+        {
+          "id": 2,
+          "nombre": "¿Cómo reciclar? Aprende con Nacho las 3 R del reciclaje | Videos para niños",
+          "titulo": "¿Cómo reciclar?",
+          "descripcion": "Este video enseña a los niños los conceptos básicos del reciclaje a través de una conversación dinámica entre personajes, facilitando la comprensión de forma sencilla y entretenida. Se explican las “tres erres” del reciclaje: reducir, reutilizar y reciclar, mostrando ejemplos prácticos de cómo aplicarlas en la vida diaria.\n\nAdemás, se identifican los materiales que pueden ser reciclados, como papel, plástico, vidrio, cartón y metal, destacando la importancia de separar correctamente los residuos. El contenido promueve hábitos responsables desde temprana edad y resalta cómo pequeñas acciones pueden contribuir al cuidado del planeta y la conservación de los recursos naturales.\n\nEste recurso forma parte de un aprendizaje infantil que combina educación ambiental con elementos lúdicos, incentivando la curiosidad y la participación activa de los niños.",
+          "duracion": "0:06:44",
+          "youtube": "https://www.youtube-nocookie.com/embed/WVrxkF6TcQU?si=ECEmkmsVGWWteOOm",
+          "autor": {
+            "nombre": "Nacho Aprende",
+            "canal": "Nacho Aprende",
+            "url": "https://www.youtube.com/@nachoaprendeoficial",
+            "licencia": "©Nacho Aprende S.A.S - Todos los derechos reservados.",
+            "verificado": true
+          }
+        },
+        {
+          "id": 3,
+          "nombre": "¿Qué es el RECICLAJE y por qué es IMPORTANTE? ♻️",
+          "titulo": "¿Qué es el RECICLAJE y por qué es IMPORTANTE? ♻️",
+          "descripcion": "Este video explica de manera sencilla qué es el reciclaje y por qué es una práctica fundamental en la actualidad. A partir de ejemplos concretos, se muestra cómo los residuos pueden transformarse en nuevos productos, ayudando a disminuir la contaminación y el impacto ambiental generado por la acumulación de desechos.\n\nEl contenido también presenta los principales materiales que pueden reciclarse, como el vidrio, el aluminio, el papel y el cartón, destacando sus beneficios y algunas curiosidades sobre su reutilización. Además, se proponen ideas prácticas para dar un nuevo uso a ciertos objetos en el hogar, fomentando la creatividad y la reducción de residuos.\n\nEste recurso busca generar conciencia sobre la importancia de adoptar hábitos responsables, recordando que pequeñas acciones individuales pueden contribuir significativamente al cuidado del planeta.",
+          "duracion": "0:01:53",
+          "youtube": "https://www.youtube-nocookie.com/embed/uaI3PLmAJyM?si=DRjAbva187LhJOmp",
+          "autor": {
+            "nombre": "Pase de lista",
+            "canal": "Pase de lista",
+            "url": "https://www.youtube.com/@Pasedelista",
+            "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+            "verificado": true
+          }
+        },
+        {
+          "id": 4,
+          "nombre": "Cómo Cuidar el Medio Ambiente | Videos Educativos y divertido para Niños",
+          "titulo": "Cómo Cuidar el Medio Ambiente",
+          "descripcion": "Este video aborda la importancia de cuidar el medio ambiente y explica cómo las acciones humanas, como la contaminación y la mala gestión de residuos, están afectando al planeta. A través de ejemplos claros, se muestra cómo la basura puede impactar negativamente el suelo, el agua y el aire, además de poner en riesgo la vida de animales y ecosistemas.\n\nEl contenido también presenta diversas acciones prácticas que pueden aplicarse en la vida diaria, como cultivar alimentos en casa, plantar árboles, ahorrar agua y separar correctamente los residuos. Estas medidas ayudan a reducir el impacto ambiental y promueven un estilo de vida más sostenible.\n\nAsimismo, se resalta la importancia de cuidar el entorno natural como si fuera nuestro propio hogar, entendiendo que de él dependen recursos esenciales como el aire, el agua y los alimentos. Este recurso busca generar conciencia y motivar a adoptar hábitos responsables para proteger el planeta y garantizar un futuro más saludable.",
+          "duracion": "0:02:44",
+          "youtube": "https://www.youtube-nocookie.com/embed/dmT2RVYR1Kk?si=8CfSDEiDJa9kfnU1",
+          "autor": {
+            "nombre": "CHEERFUL LEARNING ABC",
+            "canal": "CHEERFUL LEARNING ABC",
+            "url": "https://www.youtube.com/@CHEERFULLEARNING123",
+            "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+            "verificado": true
+          }
+        },
+        {
+          "id": 5,
+          "nombre": "Basura orgánica e inorgánica",
+          "titulo": "Basura orgánica e inorgánica",
+          "descripcion": "Este video explica de forma detallada la diferencia entre la basura orgánica e inorgánica, ayudando a comprender cómo se clasifican los residuos según su origen. Se presentan ejemplos cotidianos de cada tipo de basura, facilitando su identificación en la vida diaria.\n\nAdemás, se describe cómo los residuos orgánicos pueden descomponerse de manera natural y convertirse en recursos útiles, como la composta, la cual contribuye a mejorar la calidad del suelo y el crecimiento de las plantas. Por otro lado, se analiza el impacto de la basura inorgánica en el medio ambiente, destacando su carácter contaminante y la necesidad de un manejo adecuado.\n\nEl contenido también introduce la regla de las tres erres: reducir, reutilizar y reciclar, promoviendo acciones prácticas que ayudan a disminuir la generación de residuos y fomentar un estilo de vida más responsable. Este recurso busca fortalecer la conciencia ambiental y enseñar cómo pequeñas decisiones pueden contribuir al cuidado del planeta.",
+          "duracion": "0:06:11",
+          "youtube": "https://www.youtube-nocookie.com/embed/uEZbbL2QRpU?si=W-zsKm_TZPNLO-aB",
+          "autor": {
+            "nombre": "Escuela de Aprendices",
+            "canal": "Escuela de Aprendices",
+            "url": "https://www.youtube.com/@EscueladeAprendices",
+            "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+            "verificado": true
+          }
+        },
+        {
+          "id": 6,
+          "nombre": "Disponer los residuos es muy fácil con ayuda de Estraeco, Blanca, Verde y negro!!!",
+          "titulo": "Disponer los residuos es muy fácil con ayuda de Estraeco, Blanca, Verde y negro!!!",
+          "descripcion": "Este video enseña de manera didáctica cómo separar correctamente los residuos utilizando el sistema de colores de los contenedores. A través de personajes representativos, se explica qué tipo de desechos deben depositarse en cada caneca: los residuos reciclables como plástico, vidrio, papel y metal; los residuos orgánicos provenientes de alimentos y jardinería; y aquellos desechos no aprovechables que no pueden reutilizarse.\n\nAdemás, se destaca la importancia de dar una segunda vida a los materiales reciclables y de aprovechar los residuos orgánicos mediante procesos como el compostaje, contribuyendo al cuidado del medio ambiente. También se explica el destino final de los residuos no reciclables y la necesidad de gestionarlos adecuadamente.\n\nEste recurso busca fomentar hábitos responsables en la separación de basura, mostrando que una correcta clasificación de los residuos es clave para reducir la contaminación y proteger el planeta.",
+          "duracion": "0:01:51",
+          "youtube": "https://www.youtube-nocookie.com/embed/_KjUhXXE0t4?si=Vx4Hq3QutbEEZp1x",
+          "autor": {
+            "nombre": "Estra Soluciones",
+            "canal": "Estra Soluciones",
+            "url": "https://www.youtube.com/@Estrasoluciones",
+            "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+            "verificado": true
+          }
+        },
+        {
+          "id": 7,
+          "nombre": "¡Niños aprenden a reciclar: Plástico, Vidrio, Papel y ¡Más! - Kids Academy",
+          "titulo": "¡Niños aprenden a reciclar: Plástico, Vidrio, Papel y ¡Más! - Kids Academy",
+          "descripcion": "Este video enseña a los niños cómo identificar y clasificar correctamente los residuos mediante el uso de contenedores de basura y reciclaje. A través de una historia interactiva, se explica el significado del símbolo del reciclaje y cómo algunos materiales, como el vidrio, el plástico, el metal y el papel, pueden transformarse en nuevos productos.\n\nEl contenido también muestra, de forma práctica, qué tipos de desechos no pueden reciclarse, como los restos de comida, ayudando a diferenciar entre basura común y materiales reutilizables. Además, se presenta el proceso básico del reciclaje, desde la recolección hasta la transformación de los residuos en nuevos objetos.\n\nEste recurso promueve la participación activa de los niños, invitándolos a clasificar diferentes elementos y reforzando el aprendizaje mediante ejemplos sencillos. Su objetivo es fomentar hábitos responsables y conciencia ambiental desde una edad temprana.",
+          "duracion": "0:04:37",
+          "youtube": "https://www.youtube-nocookie.com/embed/YgES1DyjeGs?si=RP5qLGhyd1GjirN3",
+          "autor": {
+            "nombre": "Kids Academy Español",
+            "canal": "Kids Academy Español",
+            "url": "https://www.youtube.com/@kidsacademyespanol",
+            "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+            "verificado": true
+          }
+        },
+        {
+          "id": 8,
+          "nombre": "Aprende a Reciclar con Eddie ♻👀🌍 Eddie cuida el planeta con un divertido juego",
+          "titulo": "Aprende a Reciclar con Eddie ♻👀🌍",
+          "descripcion": "Este video enseña la importancia de mantener limpio el entorno y cómo una correcta gestión de los residuos puede ayudar a proteger el planeta. A través de una situación cotidiana, se explica cómo la contaminación afecta a la naturaleza y por qué es necesario depositar la basura en el contenedor adecuado.\n\nEl contenido presenta de forma didáctica el sistema de colores para clasificar residuos: el contenedor verde para el vidrio, el azul para papel y cartón, y el amarillo para plásticos, latas y envases. Mediante un juego interactivo, se refuerza el aprendizaje al identificar dónde debe colocarse cada tipo de desecho.\n\nEste recurso busca fomentar hábitos responsables en los niños, promoviendo la participación activa y mostrando que pequeñas acciones, como separar correctamente la basura, contribuyen al cuidado del medio ambiente y a la conservación de la naturaleza.",
+          "duracion": "0:03:25",
+          "youtube": "https://www.youtube-nocookie.com/embed/2ACfY-1lJAk?si=_bAo9ae5VU50ReRH",
+          "autor": {
+            "nombre": "Aprende con EDDIE - El dinosaurio travieso",
+            "canal": "Aprende con EDDIE - El dinosaurio travieso",
+            "url": "https://www.youtube.com/@AprendeConEddie",
+            "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+            "verificado": true
+          }
+        },
+        {
+          "id": 9,
+          "nombre": "¿Cómo reciclar? - Guía completa de reciclaje - Algohayquehacer",
+          "titulo": "¿Cómo reciclar? - Guía completa de reciclaje",
+          "descripcion": "Este video explica de forma detallada cómo reciclar correctamente utilizando los distintos tipos de contenedores. A lo largo del contenido, se describen las características y usos de cada uno: el contenedor amarillo para envases de plástico, metal y briks; el azul para papel y cartón; el verde para vidrio; y el contenedor orgánico para residuos biodegradables.\n\nAdemás, se aclara qué materiales sí pueden reciclarse y cuáles deben evitarse en cada caso, ayudando a prevenir errores comunes en la separación de residuos. El video también resalta la importancia del reciclaje como una acción cotidiana que contribuye al ahorro de recursos naturales, la reducción de la contaminación y la protección del medio ambiente.\n\nEste recurso promueve hábitos responsables y un consumo más consciente, recordando que pequeñas acciones, como separar adecuadamente la basura, pueden generar un impacto positivo significativo en el planeta.",
+          "duracion": "0:04:21",
+          "youtube": "https://www.youtube-nocookie.com/embed/YiHTNfKJwAw?si=60c__abOemevP17Y",
+          "autor": {
+            "nombre": "Algo hay que hacer",
+            "canal": "Algo hay que hacer",
+            "url": "https://www.youtube.com/@Algohayquehacer",
+            "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+            "verificado": true
+          }
+        },
+        {
+          "id": 10,
+          "nombre": "Separando la basura | Video para niños",
+          "titulo": "Separando la basura",
+          "descripcion": "Este video destaca la importancia de separar correctamente la basura para reducir la contaminación ambiental. A partir de un dato impactante sobre el tiempo que tarda el plástico en descomponerse, se invita a reflexionar sobre el impacto de los residuos en el planeta, especialmente en los océanos.\n\nEl contenido explica cómo clasificar los desechos en casa, diferenciando entre residuos orgánicos, como restos de alimentos y jardinería, y residuos inorgánicos, como plástico, papel, vidrio, metal y otros materiales reciclables.\n\nEste recurso busca fomentar hábitos responsables desde el hogar, mostrando que acciones sencillas como la separación de residuos pueden contribuir a proteger el medio ambiente y a conservar la vida en el planeta.",
+          "duracion": "0:01:13",
+          "youtube": "https://www.youtube-nocookie.com/embed/wlsXGwu4Mt8?si=fT93koES6qdVQBtg",
+          "autor": {
+            "nombre": "Planeta Preescolar",
+            "canal": "Planeta Preescolar",
+            "url": "https://www.youtube.com/@PlanetaPreescolar",
+            "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+            "verificado": true
+          }
+        },
+        {
+          "id": 11,
+          "nombre": "Reducir, Reutilizar y Reciclar. Para mejorar el mundo | Videos Educativos para Niños",
+          "titulo": "Reducir, Reutilizar y Reciclar. Para mejorar el mundo",
+          "descripcion": "Este video presenta de forma creativa y cercana la importancia de cuidar el planeta a través de la regla de las tres erres: reducir, reutilizar y reciclar. Mediante una narrativa donde la Tierra se dirige directamente a los niños, se explican acciones sencillas que pueden aplicarse en la vida diaria para disminuir el impacto ambiental.\n\nEl contenido muestra cómo reducir el consumo innecesario, reutilizar objetos para darles una segunda vida y reciclar correctamente los residuos utilizando los contenedores adecuados. A través de ejemplos prácticos, se fomenta la reflexión sobre hábitos cotidianos que contribuyen a disminuir la contaminación.\n\nEste recurso busca motivar a los niños a convertirse en agentes de cambio, promoviendo la responsabilidad ambiental y demostrando que pequeñas acciones pueden generar un impacto positivo en el cuidado del planeta.",
+          "duracion": "0:03:27",
+          "youtube": "https://www.youtube-nocookie.com/embed/cvakvfXj0KE?si=ISNRwTeyJTi2vKB1",
+          "autor": {
+            "nombre": "Happy Learning Español",
+            "canal": "Happy Learning Español",
+            "url": "https://www.youtube.com/@HappyLearningES",
+            "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+            "verificado": true
+          }
+        },
+        {
+          "id": 12,
+          "nombre": "Consumo responsable para niños - Las tres erres: Reducir, Reutilizar y Reciclar",
+          "titulo": "Las tres erres: Reducir, Reutilizar y Reciclar",
+          "descripcion": "Este video explica la importancia del consumo responsable y cómo nuestras decisiones al comprar y utilizar productos pueden afectar al medio ambiente. A través de ejemplos cotidianos, se invita a reflexionar sobre la diferencia entre lo que realmente necesitamos y lo que consumimos en exceso.\n\nEl contenido introduce la regla de las tres erres: reducir, reutilizar y reciclar, mostrando cómo aplicarlas en la vida diaria para disminuir la generación de residuos. Además, se presentan consejos prácticos como planificar las compras, evitar el desperdicio de alimentos, utilizar menos plástico, optar por productos locales y aprovechar al máximo los objetos antes de desecharlos.\n\nEste recurso busca fomentar hábitos más conscientes y sostenibles, demostrando que pequeñas acciones pueden contribuir significativamente al cuidado del planeta y a la protección de los recursos naturales.",
+          "duracion": "0:04:42",
+          "youtube": "https://www.youtube-nocookie.com/embed/yM0SeWPybu8?si=OrcA1IC-a_MsACQl",
+          "autor": {
+            "nombre": "Smile and Learn - Español",
+            "canal": "Smile and Learn - Español",
+            "url": "https://www.youtube.com/@SmileandLearnEspa%C3%B1ol",
+            "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+            "verificado": true
+          }
+        },
+        {
+          "id": 13,
+          "nombre": "Lapicero Ecologico - Portalapices Reciclado [FACIL]",
+          "titulo": "Lapicero Ecologico - Portalapices Reciclado [FACIL]",
+          "descripcion": "Este video explica la importancia del consumo responsable y cómo nuestras decisiones al comprar y utilizar productos pueden afectar al medio ambiente. A través de ejemplos cotidianos, se invita a reflexionar sobre la diferencia entre lo que realmente necesitamos y lo que consumimos en exceso.\n\nEl contenido introduce la regla de las tres erres: reducir, reutilizar y reciclar, mostrando cómo aplicarlas en la vida diaria para disminuir la generación de residuos. Además, se presentan consejos prácticos como planificar las compras, evitar el desperdicio de alimentos, utilizar menos plástico, optar por productos locales y aprovechar al máximo los objetos antes de desecharlos.\n\nEste recurso busca fomentar hábitos más conscientes y sostenibles, demostrando que pequeñas acciones pueden contribuir significativamente al cuidado del planeta y a la protección de los recursos naturales.",
+          "duracion": "0:06:50",
+          "youtube": "https://www.youtube-nocookie.com/embed/8AhQR3CSY6s?si=6W3oqsI9KQeRD-kA",
+          "autor": {
+            "nombre": "Craftingeek*",
+            "canal": "Craftingeek*",
+            "url": "https://www.youtube.com/@craftingeek",
+            "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+            "verificado": true
+          }
+        },
+        {
+          "id": 14,
+          "nombre": "Cómo empezar a reciclar en casa de forma sencilla",
+          "titulo": "Cómo empezar a reciclar en casa de forma sencilla",
+          "descripcion": "Este video enseña cómo comenzar a reciclar en casa de manera sencilla, promoviendo la participación familiar en el cuidado del medio ambiente. A través de una explicación práctica, se muestra cómo organizar los residuos utilizando diferentes contenedores según su tipo.\n\nEl contenido explica la clasificación básica de la basura: materiales reciclables como vidrio, plástico y cartón; residuos no aprovechables; y desechos orgánicos biodegradables. Además, se brindan recomendaciones útiles como limpiar los envases antes de desecharlos y optimizar el espacio en los contenedores.\n\nEste recurso busca motivar a las personas a adoptar hábitos responsables desde el hogar, demostrando que pequeñas acciones cotidianas pueden contribuir significativamente a reducir los residuos y proteger el planeta.",
+          "duracion": "0:01:50",
+          "youtube": "https://www.youtube-nocookie.com/embed/eDFECiSBgd0?si=Px2qnnpsXgupaW2n",
+          "autor": {
+            "nombre": "Nestlé Colombia",
+            "canal": "Nestlé Colombia",
+            "url": "https://www.youtube.com/@Nestlecol",
+            "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+            "verificado": true
+          }
+        },
+        {
+          "id": 15,
+          "nombre": "Proyectos Escolares Para Niños Hecho Con Material Reciclado",
+          "titulo": "Proyectos Escolares Para Niños Hecho Con Material Reciclado",
+          "descripcion": "Este video presenta una colección de ideas creativas para realizar proyectos escolares utilizando materiales reciclados. A través de diferentes ejemplos, se demuestra cómo objetos comunes como botellas, tapas, cartón y otros elementos reutilizables pueden transformarse en herramientas educativas y manualidades divertidas.\n\nEntre las actividades propuestas se incluyen representaciones del cuerpo humano, el sistema solar, experimentos sencillos y modelos científicos, todos elaborados con materiales accesibles y reutilizados. Estas ideas fomentan la creatividad, el aprendizaje práctico y el aprovechamiento de recursos que normalmente se desechan.\n\nEste recurso busca incentivar el reciclaje desde un enfoque lúdico, mostrando que es posible aprender y crear al mismo tiempo que se contribuye al cuidado del medio ambiente.",
+          "duracion": "0:02:50",
+          "youtube": "https://www.youtube-nocookie.com/embed/MYJiIX2M8is?si=22GY0oMSMhrimh-0",
+          "autor": {
+            "nombre": "Manualidades eli: Ideas y Más",
+            "canal": "Manualidades eli: Ideas y Más",
+            "url": "https://www.youtube.com/@manualidadeseliideasymas",
+            "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+            "verificado": true
+          }
+        }
+
+        
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Cursos SENA con Certificación",
+      "descripcion": "Accede a cursos gratuitos sobre como gestionar recursos sostenibles, y como cuidar el medio ambiente.",
+      "categoria": "Certificados",
+      "duracion_total": "Variable",
+      "imagen": "https://www.oitcinterfor.org/sites/default/files/styles/medium/public/Logo-de-SENA-png-verde-300x300-1.png?itok=9Fi1hLES",
+      "externo": true,
+      "url": "https://ejecucionformacion.sena.edu.co/cursos-cortos"
+    },
+    {
+      "id": 3,
+      "nombre": "Cursos Secretaría Distrital del Hábitat con Certificación",
+      "descripcion": "En la secretaria del habitat encontraras diversos cursos como:  aprovechamiento del agua, ciclo del agua , cambio climatico y  gestion de residuos",
+      "categoria": "Certificados",
+      "duracion_total": "Variable",
+      "imagen": "https://escuela.habitatbogota.gov.co/pluginfile.php/1/core_admin/logo/0x200/1773972193/Logo_peq_color.png",
+      "externo": true,
+      "url": "https://escuela.habitatbogota.gov.co/"
+    }
+  ]
+}
