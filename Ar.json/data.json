@@ -236,26 +236,481 @@
 
         
       ]
+      },
+      {
+        "id": 2,
+        "nombre": "Cursos SENA con Certificación",
+        "descripcion": "Accede a cursos gratuitos sobre como gestionar recursos sostenibles, y como cuidar el medio ambiente.",
+        "categoria": "Certificados",
+        "duracion_total": "Variable",
+        "imagen": "https://www.oitcinterfor.org/sites/default/files/styles/medium/public/Logo-de-SENA-png-verde-300x300-1.png?itok=9Fi1hLES",
+        "externo": true,
+        "url": "https://ejecucionformacion.sena.edu.co/cursos-cortos"
+      },
+      {
+        "id": 3,
+        "nombre": "Cursos Secretaría Distrital del Hábitat con Certificación",
+        "descripcion": "En la secretaria del habitat encontraras diversos cursos como:  aprovechamiento del agua, ciclo del agua , cambio climatico y  gestion de residuos",
+        "categoria": "Certificados",
+        "duracion_total": "Variable",
+        "imagen": "https://escuela.habitatbogota.gov.co/pluginfile.php/1/core_admin/logo/0x200/1773972193/Logo_peq_color.png",
+        "externo": true,
+        "url": "https://escuela.habitatbogota.gov.co/"
+      },
+      {
+  "id": 4,
+  "nombre": "Fundamentos del Reciclaje y Manejo de Residuos en el Hogar",
+  "descripcion": "Este curso ofrece una guía completa sobre el reciclaje y la gestión de residuos, abordando desde los conceptos básicos hasta recomendaciones prácticas para aplicar en el hogar. A lo largo de los contenidos, se explican los tipos de basura, la correcta separación de residuos, el significado de los colores del reciclaje y los errores más comunes que se deben evitar. Todo esto con el objetivo de promover hábitos responsables y sostenibles con el medio ambiente.",
+  "categoria": " Educación ambiental, reciclaje",
+  "duracion_total": "00:33:01 minutos",
+  "imagen": "../img/Curso2.jpg",
+  "videos": [
+    {
+      "id": 16,
+      "nombre": "♻️ ¿Cómo SEPARAR los RESIDUOS correctamente para RECICLAR? Bien Explicado (FÁCIL y RÁPIDO)\n",
+      "titulo": "♻️ ¿Cómo SEPARAR los RESIDUOS correctamente para RECICLAR? Bien Explicado \n",
+      "descripcion": "Se presentan pautas claras para separar correctamente los residuos desde el hogar, diferenciando entre los distintos tipos de contenedores y los materiales que corresponden a cada uno. Se enfatiza la importancia de clasificar adecuadamente el vidrio, los envases, el papel y cartón, así como los residuos orgánicos y aquellos que no pueden reciclarse. También se aclaran errores comunes al momento de desechar materiales y se destaca el uso de puntos limpios para residuos especiales, fomentando prácticas responsables que contribuyen al cuidado del medio ambiente y a una gestión más eficiente de los desechos.",
+      "duracion": "00:12:59 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/vQrXFn3dcOY?si=O9dgatTcu5X9XQDR",
+      "autor": {
+        "nombre": "Javier clemente",
+        "canal": "Todos Somos Reciclaje\n",
+        "url": "https://www.youtube.com/@todossomosreciclaje",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación) ",
+        "verificado": true
+      }
     },
     {
-      "id": 2,
-      "nombre": "Cursos SENA con Certificación",
-      "descripcion": "Accede a cursos gratuitos sobre como gestionar recursos sostenibles, y como cuidar el medio ambiente.",
-      "categoria": "Certificados",
-      "duracion_total": "Variable",
-      "imagen": "https://www.oitcinterfor.org/sites/default/files/styles/medium/public/Logo-de-SENA-png-verde-300x300-1.png?itok=9Fi1hLES",
-      "externo": true,
-      "url": "https://ejecucionformacion.sena.edu.co/cursos-cortos"
+      "id": 17,
+      "nombre": "¿Qué es la BASURA y qué TIPOS hay? Orgánica, inorgánica y otros (con EJEMPLOS)🗑️♻️",
+      "titulo": "¿Qué es la BASURA y qué TIPOS hay? Orgánica, inorgánica y otros (con EJEMPLOS)🗑️♻️",
+      "descripcion": "Se describen los diferentes tipos de basura, clasificándolos principalmente en orgánica e inorgánica según su composición, y explicando sus características y ejemplos. También se aborda su clasificación según el origen, incluyendo residuos domésticos, comerciales, industriales, agrícolas, institucionales, electrónicos, sanitarios y hasta espaciales. Además, se diferencia entre basura reciclable y no reciclable, resaltando la importancia de una correcta gestión de los desechos para reducir el impacto ambiental y fomentar prácticas más sostenibles.",
+      "duracion": "00:09:33 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/ePooy7UKSCg?si=DaiY6iBeNuKPOxRb",
+      "autor": {
+        "nombre": "Astraway",
+        "canal": "Astraway",
+        "url": "https://www.youtube.com/@astrawayhello",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación) ",
+        "verificado": true
+      }
     },
     {
-      "id": 3,
-      "nombre": "Cursos Secretaría Distrital del Hábitat con Certificación",
-      "descripcion": "En la secretaria del habitat encontraras diversos cursos como:  aprovechamiento del agua, ciclo del agua , cambio climatico y  gestion de residuos",
-      "categoria": "Certificados",
-      "duracion_total": "Variable",
-      "imagen": "https://escuela.habitatbogota.gov.co/pluginfile.php/1/core_admin/logo/0x200/1773972193/Logo_peq_color.png",
-      "externo": true,
-      "url": "https://escuela.habitatbogota.gov.co/"
+      "id": 18,
+      "nombre": "Los 6 colores del reciclaje",
+      "titulo": "Los 6 colores del reciclaje",
+      "descripcion": "Se explican los diferentes colores de los contenedores de reciclaje y el tipo de residuos que corresponde depositar en cada uno. Se detallan el contenedor azul para papel y cartón, el amarillo para envases de plástico y latas, el verde para vidrio, el rojo para residuos peligrosos, el naranja para desechos orgánicos y el gris para aquellos residuos que no pueden reciclarse en las categorías anteriores. Además, se destacan errores comunes al reciclar y la importancia de clasificar correctamente los desechos para reducir la contaminación y mejorar el aprovechamiento de los materiales.",
+      "duracion": "00:01:39 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/q9jD3juRpG4?si=XF3_9NdcIbsRUlpb",
+      "autor": {
+        "nombre": "Mati",
+        "canal": "Smile Mati",
+        "url": "https://www.youtube.com/@smilemati4100",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación) ",
+        "verificado": true
+      }
+    },
+    {
+      "id": 19,
+      "nombre": "15 ERRORES más COMUNES al RECICLAR ♻️❌",
+      "titulo": "15 ERRORES más COMUNES al RECICLAR ♻️❌",
+      "descripcion": "Se presentan los errores más comunes al momento de reciclar, aclarando qué residuos no deben depositarse en cada tipo de contenedor. Se destacan equivocaciones frecuentes como desechar papel sucio en el contenedor azul, colocar objetos que no son envases en el amarillo o confundir vidrio con cristal en el contenedor verde. Además, se explica el manejo adecuado de productos como pilas, cápsulas de café, juguetes o residuos peligrosos, resaltando la importancia de utilizar los puntos limpios cuando es necesario. En conjunto, se busca promover una correcta clasificación de los desechos para mejorar el proceso de reciclaje y reducir el impacto ambiental.",
+      "duracion": "00:05:06 minutos ",
+      "youtube": "https://www.youtube-nocookie.com/embed/qZpflVcKWd8?si=mb0Y4C3PCDtbMzh7",
+      "autor": {
+        "nombre": "EcologíaVerde",
+        "canal": "EcologíaVerde",
+        "url": "https://www.youtube.com/@EcologiaVerde",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación) ",
+        "verificado": true
+      }
+    },
+    {
+      "id": 20,
+      "nombre": "Cinco consejos para reciclar desde casa - El Espectador",
+      "titulo": "Cinco consejos para reciclar desde casa",
+      "descripcion": "Se presentan datos sobre la cantidad de residuos sólidos generados en Colombia y la importancia del reciclaje para reducir la contaminación y cuidar el medio ambiente. Se brindan recomendaciones prácticas para gestionar los desechos desde el hogar, como separarlos por tipo en diferentes canecas, reutilizar materiales y apoyar la labor de los recicladores. También se explican alternativas para reciclar plásticos, vidrio y otros elementos, así como el manejo adecuado de residuos especiales como pilas, medicamentos y aceite usado. Además, se promueve el uso de bolsas reutilizables y se incluyen medidas para la correcta disposición de residuos en situaciones especiales como emergencias sanitarias.",
+      "duracion": "00:03:44 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/WmBzg8MtgJg?si=cUx01TjxlGoGLcdM",
+      "autor": {
+        "nombre": "El Espectador\n",
+        "canal": "El Espectador\n",
+        "url": "https://www.youtube.com/@ElEspectador",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación) ",
+        "verificado": true
+      }
     }
+  ]
+},
+{
+  "id": 5,
+  "nombre": "Plásticos y Reciclaje: Clasificación, Manejo y Reducción para Adultos.",
+  "descripcion": "Este curso práctico y directo está diseñado para adultos que desean comprender de forma clara cómo identificar los 7 tipos de plástico, separar correctamente los residuos y entender todo el proceso de reciclaje. Además, incluye estrategias aplicables para reducir el consumo de plástico en la vida diaria y evitar errores comunes al momento de reciclar. A través de explicaciones simples y aplicables, aprenderás a tomar decisiones más responsables con el medio ambiente en tu hogar, trabajo y comunidad",
+  "categoria": "Sostenibilidad , Gestión de Residuos , Educación Ambiental para Adultos",
+  "duracion_total": "00:32:24 minutos",
+  "imagen": "../img/Curso3.jpg",
+  "videos": [
+    {
+      "id": 21,
+      "nombre": "Los 7 Tipos de Plástico EXPLICADOS en 2 Minutos | ¿Cuál es Reciclable?",
+      "titulo": "Los 7 Tipos de Plástico EXPLICADOS en 2 Minutos | ¿Cuál es Reciclable?",
+      "descripcion": "El video presenta de manera sencilla los siete tipos de plásticos más comunes, explicando en qué productos se utilizan y cuáles de ellos pueden reciclarse. Muestra que materiales como el PET, HDPE, LDPE, PP y algunos del grupo “otros” son reciclables, mientras que el PVC y ciertos tipos de poliestireno no lo son, destacando además la importancia de reducir el uso de plásticos como las bolsas. También invita a revisar las etiquetas de los envases para identificar su tipo y facilitar su correcta separación, concluyendo con un llamado a reciclar para cuidar el medio ambiente y proteger el futuro del planeta.",
+      "duracion": "00:01:49 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/BhjrN_TMmiU?si=jrjapT3mxYU6_JCI",
+      "autor": {
+        "nombre": "Bienvenido al Holoceno: Videos Medioambientales",
+        "canal": "Bienvenido al Holoceno: Videos Medioambientales",
+        "url": "https://www.youtube.com/@BienvenidoAlHoloceno",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    },
+    {
+      "id": 22,
+      "nombre": "Los residuos que generamos y como separarlos",
+      "titulo": "Los residuos que generamos y como separarlos",
+      "descripcion": "El video explica la gran cantidad de residuos que se generan diariamente en una ciudad y la importancia de reducirlos para cuidar el medio ambiente. A través de ejemplos claros, muestra cómo el consumo excesivo afecta los recursos naturales y propone acciones como reducir, reutilizar y reciclar para disminuir la basura. También enseña a separar correctamente los residuos en reciclables y no reciclables, indicando en qué contenedor depositarlos según su tipo (papel, plástico, metal o vidrio), resaltando que deben estar limpios y secos. Finalmente, motiva a las personas a adoptar estos hábitos y compartirlos, destacando que el compromiso de todos es clave para proteger el planeta y construir un mejor futuro.",
+      "duracion": "00:05:16 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/RQSpNiioUeA?si=zrCUqIyr4yAxWQTe",
+      "autor": {
+        "nombre": "EducacionBA",
+        "canal": "EducacionBA",
+        "url": "https://www.youtube.com/@educacionBA",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    },
+    {
+      "id": 23,
+      "nombre": "Todo el proceso de reciclaje explicado",
+      "titulo": "Todo el proceso de reciclaje explicado",
+      "descripcion": "El video explica detalladamente qué ocurre con los residuos después de que se depositan en un contenedor de reciclaje, mostrando que el proceso es más complejo de lo que parece y que no todo se recicla realmente. Describe cómo los materiales son recolectados, llevados a plantas de clasificación donde se separan mediante tecnología y trabajo manual, y luego procesados según su tipo (papel, plástico, vidrio y metal) para convertirse en nuevos productos. También señala que una gran parte de los residuos no logra reciclarse y termina en vertederos o incineradoras, lo que genera impactos ambientales. Finalmente, resalta la importancia de reducir, reutilizar y separar correctamente los desechos para mejorar la eficiencia del reciclaje y disminuir la contaminación",
+      "duracion": "00:07:58 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/pUfU8Nh-lvs?si=XXpHSem1RS0Tek00",
+      "autor": {
+        "nombre": "Factora",
+        "canal": "Factora",
+        "url": "https://www.youtube.com/@Factora_esp",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    },
+    {
+      "id": 24,
+      "nombre": "♻️ 5 TIPS para Reciclar Plástico (y No Fallar en el Intento)",
+      "titulo": "♻️ 5 TIPS para Reciclar Plástico (y No Fallar en el Intento)",
+      "descripcion": "El video presenta de manera práctica cómo separar correctamente los plásticos en casa a través de la explicación de los siete tipos principales de termoplásticos, mostrando sus características, usos y formas adecuadas de reciclaje. A lo largo del contenido, se dan recomendaciones clave como vaciar, lavar, retirar etiquetas y tapas, y reducir el volumen de los envases para facilitar su recolección y procesamiento. También se destaca la importancia de identificar los códigos en los empaques, entender que muchos productos están hechos de varios materiales y que deben separarse correctamente. Finalmente, se promueve el consumo responsable, recordando que el mejor residuo es el que no se genera y que una buena clasificación en casa mejora todo el proceso de reciclaje.",
+      "duracion": "00:10:12 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/DOniYontnTU?si=Tr0nLtakCEtwR8Lc",
+      "autor": {
+        "nombre": "Kuiica",
+        "canal": "Kuiica",
+        "url": "https://www.youtube.com/@Kuiica",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    },
+    {
+      "id": 25,
+      "nombre": "5 TRUCOS para REDUCIR el CONSUMO de PLÁSTICO",
+      "titulo": "5 TRUCOS para REDUCIR el CONSUMO de PLÁSTICO",
+      "descripcion": "El video explica la presencia constante del plástico en la vida cotidiana y cómo su uso excesivo se ha convertido en un problema ambiental, resaltando la importancia de reducir su consumo. Describe qué es el plástico, sus tipos y cómo identificarlos mediante símbolos, además de advertir sobre algunos materiales que pueden ser perjudiciales para la salud y el ambiente. También ofrece recomendaciones prácticas para disminuir su uso, como llevar bolsas reutilizables, evitar productos desechables, preferir envases de vidrio o cartón, reutilizar objetos y optar por alternativas caseras. Finalmente, invita a adoptar hábitos responsables para cuidar el planeta y contribuir a un futuro más sostenible.",
+      "duracion": "00:07:09 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/4a3NTdJ7IFA?si=S5YTN4VHtS-niLOM",
+      "autor": {
+        "nombre": "Club de Vida",
+        "canal": "Club de Vida",
+        "url": "https://www.youtube.com/@clubdevidatv",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    }
+  ]
+},
+{
+  "id": 6,
+  "nombre": "El Viaje de los Residuos: Reciclaje, Impacto y Transformación Ambiental",
+  "descripcion": "Este curso explica qué sucede con la basura después de ser desechada y cómo funciona el proceso de reciclaje, abordando temas como el recorrido de los residuos, el reciclaje del vidrio, la importancia de reciclar para el medio ambiente, los beneficios del reciclaje y el sistema de gestión de residuos en Bogotá, con el objetivo de generar conciencia ambiental y promover hábitos responsables en la separación y manejo de los desechos.",
+  "categoria": "Gestión de residuos , educación ambiental",
+  "duracion_total": "00:35:43 minutos",
+  "imagen": "../img/Curso4.png",
+  "videos": [
+    {
+      "id": 26,
+      "nombre": "Qué pasa con tu basura después de tirarla? El viaje oculto de la basura",
+      "titulo": "Qué pasa con tu basura después de tirarla? El viaje oculto de la basura",
+      "descripcion": "El video explica de forma clara el recorrido que sigue la basura después de que la desechamos, mostrando que no desaparece, sino que pasa por un proceso de recolección, transporte y disposición final. La mayoría de los residuos termina en vertederos, donde se acumulan y generan problemas ambientales como gases de efecto invernadero y lixiviados, mientras que otra parte se incinera, lo que reduce su volumen pero también produce contaminación. Frente a esto, el video resalta la importancia del reciclaje y el compostaje como alternativas sostenibles que permiten reutilizar materiales y transformar los desechos orgánicos en recursos útiles. Finalmente, invita a reflexionar sobre la responsabilidad individual, destacando que pequeñas acciones como separar la basura pueden generar un gran impacto positivo en el medio ambiente.",
+      "duracion": "00:03:12 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/WxJ1F_4DKrM?si=zmW5TovAwmgyT8eH",
+      "autor": {
+        "nombre": "Los 10 Mas",
+        "canal": "Los 10 Mas",
+        "url": "https://www.youtube.com/@losdiesmas",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    },
+    {
+      "id": 27,
+      "nombre": "¿Cómo se recicla el vidrio? ES IMPRESIONANTE / Marce La Recicladora! 😃 ♻️",
+      "titulo": "¿Cómo se recicla el vidrio? ES IMPRESIONANTE / Marce La Recicladora! 😃 ♻️",
+      "descripcion": "El video muestra de manera detallada cómo se lleva a cabo el reciclaje del vidrio, desde su recolección hasta la fabricación de nuevos envases, destacando que este material puede reciclarse infinitas veces sin perder calidad. A través de un recorrido por una planta en Colombia, se explica el proceso que incluye la clasificación por colores, la limpieza para eliminar contaminantes, la trituración y su posterior mezcla con arena y otros componentes antes de ser fundido a altas temperaturas. Luego, el vidrio líquido se moldea en nuevas botellas, pasa por controles de calidad y se distribuye para su uso nuevamente. Además, el video resalta la importancia del trabajo de los recicladores, el impacto ambiental positivo del reciclaje y la necesidad de separar correctamente los residuos desde casa para facilitar todo el proceso.",
+      "duracion": "00:07:05 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/4jETI2NcdrI?si=qP0a_Ous19O5xKZA",
+      "autor": {
+        "nombre": "Marce",
+        "canal": "Marce La Recicladora",
+        "url": "https://www.youtube.com/@MarceLaRecicladora",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    },
+    {
+      "id": 28,
+      "nombre": "La IMPORTANCIA de RECICLAR para el MEDIO AMBIENTE ♻️🌏",
+      "titulo": "La IMPORTANCIA de RECICLAR para el MEDIO AMBIENTE ♻️🌏",
+      "descripcion": "El video destaca la importancia del reciclaje como una acción fundamental para proteger el medio ambiente, señalando cómo los residuos, especialmente plásticos y metales, están afectando gravemente a los océanos, ríos y la fauna. Explica que reciclar no solo implica separar los desechos, sino también adoptar un consumo responsable que permita reducir el impacto ambiental, dando una segunda vida a los materiales y evitando su acumulación en vertederos. Además, resalta que el reciclaje contribuye a combatir el cambio climático al disminuir el uso de energía y las emisiones contaminantes, al mismo tiempo que protege la salud humana al evitar la contaminación del aire, agua y suelo. Finalmente, invita a las personas a tomar conciencia y actuar, recordando que pequeñas acciones individuales pueden generar un gran cambio hacia un futuro más sostenible.",
+      "duracion": "00:02:12 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/xcl3DfEt04c?si=he1NAQ4fbhXDVoqE",
+      "autor": {
+        "nombre": "EcologíaVerde",
+        "canal": "EcologíaVerde",
+        "url": "https://www.youtube.com/@EcologiaVerde",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    },
+    {
+      "id": 29,
+      "nombre": "7 BENEFICIOS DEL RECICLAJE que tal vez no sepas ♻️ (IMPORTANTES)",
+      "titulo": "7 BENEFICIOS DEL RECICLAJE que tal vez no sepas ♻️ (IMPORTANTES)",
+      "descripcion": "El video presenta una explicación completa sobre el reciclaje en el marco del Día Mundial del Reciclaje, destacando siete beneficios clave que abarcan aspectos ambientales, económicos y sociales. Primero, aclara qué es realmente reciclar, diferenciándolo de la simple separación de residuos y de la reutilización. Luego, explica cómo el reciclaje reduce la cantidad de desechos que llegan a vertederos, ahorra materias primas, agua y energía, y disminuye las emisiones de gases de efecto invernadero, contribuyendo así a la protección del medio ambiente. Además, resalta su impacto positivo en la sociedad, ya que genera empleo, impulsa la economía circular y brinda oportunidades laborales a personas en riesgo de exclusión social. En conjunto, el video invita a comprender el reciclaje como una herramienta fundamental para lograr un desarrollo sostenible y mejorar tanto el entorno como la calidad de vida de las personas.",
+      "duracion": "00:20:35 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/q5krmcjaTtw?si=dkd-a1HmXnqIfVvD",
+      "autor": {
+        "nombre": "Javier Clemente",
+        "canal": "Todos Somos Reciclaje",
+        "url": "https://www.youtube.com/@todossomosreciclaje",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    },
+    {
+      "id": 30,
+      "nombre": "¿Cómo se recicla en Bogotá?",
+      "titulo": "¿Cómo se recicla en Bogotá?",
+      "descripcion": "El video explica de manera práctica cómo se debe realizar la separación de residuos en Bogotá, resaltando que, aunque en otros países existen sistemas más avanzados, en la ciudad el enfoque principal es dividir los desechos en dos categorías: aprovechables (bolsa blanca) y no aprovechables (bolsa negra). Se detalla que en la bolsa blanca deben ir materiales como papel, cartón, plásticos, metales y envases, siempre que estén limpios y secos, ya que esto facilita su manejo por parte de los recicladores y evita que pierdan su valor. Además, se describe el proceso que siguen estos residuos, desde su recolección hasta su clasificación y transformación en nuevos productos. El video también enfatiza la importancia de manejar adecuadamente objetos peligrosos como vidrios rotos y promueve la responsabilidad ciudadana, destacando que una correcta separación permite dar una segunda vida a los materiales y contribuir al cuidado del medio ambiente.",
+      "duracion": "00:02:39 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/6xI3hZgO4Ng?si=EjBGkPSBraoSIcX8",
+      "autor": {
+        "nombre": "UAESP",
+        "canal": "UAESP",
+        "url": "https://www.youtube.com/@uaesp.bogota",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    }
+  ]
+},
+{
+  "id": 7,
+  "nombre": "Papel y Cartón: Producción, Reciclaje y Gestión de Residuos",
+  "descripcion": "Este curso explora el ciclo completo del papel y el cartón, desde su producción hasta su reciclaje y disposición final. Los participantes aprenderán cómo se fabrica el papel, cómo se transforma el material reciclado en nuevos productos y cuál es la importancia de una correcta separación de residuos. Además, se abordan iniciativas ambientales, centros de acopio y el impacto del manejo responsable de residuos en ciudades como Bogotá. El curso promueve hábitos sostenibles como reducir, revisar y reciclar para contribuir a la economía circular y la protección del medio ambiente.",
+  "categoria": "Medio ambiente , sostenibilidad , Gestión de residuos , Reciclaje , economía circular",
+  "duracion_total": "00:41:15 minutos",
+  "imagen": "../img/Curso5.jpeg",
+  "videos": [
+    {
+      "id": 31,
+      "nombre": "PAPEL Y CARTÓN ¿Cómo se producen y cómo se reciclan?",
+      "titulo": "PAPEL Y CARTÓN ¿Cómo se producen y cómo se reciclan?",
+      "descripcion": "El video explica de forma clara el proceso de reciclaje del papel y el cartón, destacando que ambos materiales provienen de fibras de celulosa obtenidas originalmente de la madera. Describe cómo, tras su recolección, estos residuos son clasificados, compactados y transportados a industrias donde se trituran y mezclan con agua para formar una nueva pasta que puede reutilizarse hasta cinco veces. Luego, esta pasta pasa por etapas de prensado, secado y acabado para convertirse nuevamente en láminas de papel o cartón. También se explica la diferencia entre ambos materiales, siendo el cartón más grueso por estar formado por varias capas. Finalmente, el video resalta los beneficios ambientales del reciclaje, como la reducción de la tala de árboles, el ahorro de agua y energía, y la disminución de emisiones contaminantes, promoviendo la correcta separación de residuos en el hogar.",
+      "duracion": "00:03:04 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/sx1QLGGR5Gk?si=4DBdQ2VcjmnripMR",
+      "autor": {
+        "nombre": "Fundación Ambiente y Medio",
+        "canal": "Fundación Ambiente y Medio",
+        "url": "https://www.youtube.com/@AmbienteMedio",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    },
+    {
+      "id": 32,
+      "nombre": "Cómo se Fabrica el Papel Reciclado: Transformando Desechos en Nuevos Productos",
+      "titulo": "Cómo se Fabrica el Papel Reciclado: Transformando Desechos en Nuevos Productos",
+      "descripcion": "El video destaca la importancia del papel reciclado como una solución clave para reducir el impacto ambiental generado por la producción de papel nuevo, explicando que al reciclar se evita la tala de árboles, se conservan los bosques y se protege la biodiversidad. Describe el proceso de reciclaje desde la recolección y clasificación del papel, su transformación en pulpa mediante agua y procesos industriales, hasta la creación de nuevas hojas a través de prensado y secado. Además, resalta los beneficios ambientales, como el ahorro de energía y agua y la reducción de emisiones contaminantes, así como su impacto positivo en la economía y la generación de empleo. También enfatiza la importancia de la participación ciudadana, la educación ambiental y la innovación tecnológica para mejorar estos procesos, concluyendo que el uso de papel reciclado y pequeñas acciones cotidianas son fundamentales para construir un futuro más sostenible.",
+      "duracion": "00:08:47 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/fMRx5RkKnY4?si=lQ146qX7RYLA2J4j",
+      "autor": {
+        "nombre": "Ciencia y Tecnología al Desnudo",
+        "canal": "Ciencia y Tecnología al Desnudo",
+        "url": "https://www.youtube.com/@CienciayTecnolog%C3%ADaalDesnudo742",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    },
+    {
+      "id": 33,
+      "nombre": "Reciclaje papel y cartón",
+      "titulo": "Reciclaje papel y cartón",
+      "descripcion": "El video explica de forma breve y clara el proceso de reciclaje del papel y cartón, resaltando su impacto positivo en el medio ambiente, como el hecho de que reciclar una tonelada de papel puede salvar hasta 17 árboles. Describe cómo, a partir de una gestión forestal sostenible, el papel es producido, utilizado y luego recolectado para ser clasificado y tratado, permitiendo su reincorporación a la cadena productiva. Además, presenta el papel de empresas especializadas que gestionan residuos reciclables como papel, cartón, plásticos y metales, realizando procesos de recolección, separación, embalaje y comercialización. Finalmente, se destaca la importancia de estos sistemas para garantizar la trazabilidad, prolongar la vida útil de los materiales y promover una economía más sostenible basada en el reciclaje.",
+      "duracion": "00:01:43 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/PVDAgHKYawk?si=vH2fLGlPyZJj9GQ-",
+      "autor": {
+        "nombre": "SocyaOficial",
+        "canal": "SocyaOficial",
+        "url": "https://www.youtube.com/@SocyaOficial",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    },
+    {
+      "id": 34,
+      "nombre": "Nuevo centro de acopio para basuras en Bogotá | El Tiempo",
+      "titulo": "Nuevo centro de acopio para basuras en Bogotá | El Tiempo",
+      "descripcion": "El video muestra la implementación de un centro de acopio destinado a mejorar las condiciones de trabajo de los recicladores o carreteros, beneficiando a al menos 40 de ellos diariamente al brindarles un espacio cerrado y adecuado para realizar la separación de residuos. Se destaca cómo este tipo de iniciativas contribuye a dignificar su labor, reducir la discriminación y evitar conflictos en el espacio público, permitiéndoles trabajar de forma más organizada y segura. Además, se menciona que en la ciudad existen miles de recicladores y que se planea ampliar estos centros en diferentes localidades, acompañados de apoyo institucional para población vulnerable. En conjunto, el video resalta el impacto social y comunitario positivo de estas acciones, tanto para los recicladores como para el orden y bienestar de la ciudad.",
+      "duracion": "00:01:40 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/Nyqttm0OCvA?si=SWh85ANbZGcTtPdQ",
+      "autor": {
+        "nombre": "EL TIEMPO",
+        "canal": "EL TIEMPO",
+        "url": "https://www.youtube.com/@ElTiempo",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    },
+    {
+      "id": 35,
+      "nombre": "Tu papel es importante. Reduce, Revisa, Recicla.",
+      "titulo": "Tu papel es importante. Reduce, Revisa, Recicla.",
+      "descripcion": "El video de la Fundación Santa Fe de Bogotá transmite un mensaje claro y educativo sobre la importancia del reciclaje del papel, invitando a las personas a adoptar hábitos responsables a través del lema “Tu papel es importante: reduce, revisa y recicla”. En él se promueve la reducción del consumo innecesario de papel, la revisión de su estado antes de desecharlo (para asegurarse de que pueda ser reciclado) y su correcta separación para facilitar su aprovechamiento. Además, resalta cómo pequeñas acciones cotidianas pueden generar un impacto positivo en el medio ambiente, ayudando a disminuir la tala de árboles, el desperdicio de recursos y la contaminación, fomentando así una cultura de sostenibilidad y compromiso ciudadano.",
+      "duracion": "00:03:26 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/jFKMSpu-TFs?si=3OzqmnSAUR7e2jO9",
+      "autor": {
+        "nombre": "Fundación Santa Fe de Bogotá",
+        "canal": "Fundación Santa Fe de Bogotá",
+        "url": "https://www.youtube.com/@fsfbsalud",
+        "licencia": "Licencia de atribución de Creative Commons (permite reutilización)",
+        "verificado": true
+      }
+    },
+    {
+      "id": 36,
+      "nombre": "La ruta de la Basura - Greenpeace Colombia",
+      "titulo": "La ruta de la Basura - Greenpeace Colombia",
+      "descripcion": "El video expone la problemática de la gestión de residuos en Bogotá, donde diariamente se generan miles de toneladas de basura, gran parte de las cuales podrían ser recicladas pero terminan en el relleno sanitario Doña Juana, causando impactos ambientales y de salud pública. A través de testimonios y recorridos, se evidencia la falta de conciencia ciudadana, la necesidad de educación ambiental y el papel clave de los recicladores de oficio, quienes contribuyen a recuperar materiales, reducir la extracción de recursos y sostener sus familias. También se muestran procesos de separación, clasificación y transformación de residuos en nuevos productos como madera plástica, resaltando el valor de la economía circular. Finalmente, el video hace un llamado a la acción para que tanto ciudadanos como autoridades asuman su responsabilidad, promoviendo la correcta separación en la fuente, la reducción del consumo y el apoyo a los recicladores para construir una ciudad más sostenible.",
+      "duracion": "00:22:35 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/KZFTnuL2CFk?si=Ti6qK2IvbNLOfnoO",
+      "autor": {
+        "nombre": "Greenpeace Colombia",
+        "canal": "Greenpeace Colombia",
+        "url": "https://www.youtube.com/@greenpeaceencolombia",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    }
+  ]
+},
+{
+  "id": 8,
+  "nombre": "Del residuo al recurso: reciclaje, compostaje y manejo responsable de desechos",
+  "descripcion": "Este curso aborda la gestión integral de los residuos sólidos, enseñando a identificar y clasificar los desechos orgánicos, inorgánicos y peligrosos, así como a comprender su correcto manejo en el hogar y en contextos urbanos. A través de temas como el reciclaje, el compostaje y el funcionamiento del sistema de recolección en ciudades como Bogotá, se busca promover hábitos responsables que reduzcan el impacto ambiental y fomenten el aprovechamiento de los residuos dentro del marco de la economía circular y la sostenibilidad.",
+  "categoria": "Transformación sostenible , cultura de cero residuos",
+  "duracion_total": "00:28:00 minutos",
+  "imagen": "../img/Curso6.png",
+  "videos": [
+    {
+      "id": 37,
+      "nombre": "¿Sabes cuáles son los residuos orgánicos?",
+      "titulo": "¿Sabes cuáles son los residuos orgánicos?",
+      "descripcion": "El video explica de manera práctica cómo realizar la correcta separación de residuos orgánicos desde el hogar, destacando que estos deben depositarse en la bolsa verde e incluyen restos de alimentos y materiales de origen vegetal como cáscaras, café o residuos de cocina que están en proceso de descomposición. También aclara qué elementos no deben ir en esta categoría, como grasas, huesos o residuos del baño, los cuales deben ir en la bolsa negra. Además, se resalta que la separación en la fuente no es complicada, sino que requiere disciplina y compromiso por parte de los ciudadanos, ya que es una acción fundamental para el cuidado del medio ambiente y la construcción de entornos más saludables y sostenibles.",
+      "duracion": "00:01:53 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/qc4rJBcMfi8?si=XenJB4luT9nboGIH",
+      "autor": {
+        "nombre": "UAESP",
+        "canal": "UAESP",
+        "url": "https://www.youtube.com/@uaesp.bogota",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    },
+    {
+      "id": 38,
+      "nombre": "Identificar los desechos orgánicos e inorgánicos y plan de residuos",
+      "titulo": "Identificar los desechos orgánicos e inorgánicos y plan de residuos",
+      "descripcion": "El video explica la importancia de identificar y manejar correctamente los residuos orgánicos e inorgánicos en las actividades agrícolas, resaltando que los orgánicos, como restos de alimentos y materiales vegetales o animales, pueden descomponerse y aprovecharse mediante compostaje o producción de biogás, mientras que los inorgánicos, como plásticos, vidrios y metales, requieren procesos especiales de reciclaje debido a que no son biodegradables. También advierte sobre los problemas ambientales que genera una mala disposición de estos residuos, como la contaminación y la proliferación de plagas, y promueve prácticas responsables como la separación, el tratamiento adecuado y el compromiso ambiental para lograr una producción sostenible y en armonía con el entorno.",
+      "duracion": "00:08:15 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/jydDc0gbuLA?si=oKzC2mrMZ9qSXHmN",
+      "autor": {
+        "nombre": "INA VIRTUAL",
+        "canal": "INA VIRTUAL",
+        "url": "https://www.youtube.com/@inavirtual9784",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    },
+    {
+      "id": 39,
+      "nombre": "Beneficios de aprovechar los residuos orgánicos - TvAgro por Juan Gonzalo Angel Restrepo",
+      "titulo": "Beneficios de aprovechar los residuos orgánicos - TvAgro por Juan Gonzalo Angel Restrepo",
+      "descripcion": "El video explica la diferencia entre los residuos inorgánicos y orgánicos, destacando que los inorgánicos, de origen industrial como plásticos, vidrios o metales, tardan mucho tiempo en descomponerse y generan un fuerte impacto ambiental al contaminar suelos y fuentes de agua, especialmente cuando no se gestionan adecuadamente. Por ello, se resalta el reciclaje como una alternativa clave para reducir su acumulación y aprovecharlos nuevamente. Por otro lado, se presentan los beneficios de los residuos orgánicos, los cuales pueden transformarse mediante procesos como el compostaje, la lombricultura y la biodigestión, contribuyendo a mejorar la fertilidad del suelo, reducir emisiones y mitigar olores. Finalmente, se menciona el papel de las lombrices en la descomposición de la materia orgánica, resaltando su importancia en la producción de abonos naturales y en el equilibrio de los ecosistemas.",
+      "duracion": "00:05:09 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/04S8o6gM3g4?si=-HhUX8pbZ88FQW57",
+      "autor": {
+        "nombre": "Juan Gonzalo Angel Restrepo",
+        "canal": "TvAgro",
+        "url": "https://www.youtube.com/@juangangelrTvAgro",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    },
+    {
+      "id": 40,
+      "nombre": "¿Qué es y para qué sirve el COMPOSTAJE? ♻️",
+      "titulo": "¿Qué es y para qué sirve el COMPOSTAJE? ♻️",
+      "descripcion": "El video explica de forma sencilla qué es el compostaje, destacando que consiste en transformar de manera acelerada los residuos orgánicos como restos de comida, cáscaras, café o poda de jardín en abono natural mediante la acción de microorganismos. Se resalta que este proceso, que ocurre de forma natural, puede realizarse en casa con materiales básicos como un recipiente con ventilación, capas de tierra y residuos orgánicos, humedad y mezcla periódica. Además, se enfatizan sus beneficios ambientales, como la reducción de la cantidad de basura que llega a los rellenos sanitarios, la disminución de la contaminación por lixiviados y la producción de tierra fértil útil para las plantas, promoviendo así una mayor conciencia y compromiso con el cuidado del medio ambiente.",
+      "duracion": "00:02:19 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/zeFGvBfnAss?si=sFLTH32gkH_pi0gO",
+      "autor": {
+        "nombre": "Fundación Ambiente y Medio",
+        "canal": "Fundación Ambiente y Medio",
+        "url": "https://www.youtube.com/@AmbienteMedio",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    },
+    {
+      "id": 41,
+      "nombre": "QUÉ HACER CON LOS RESIDUOS PELIGROSOS DE TU CASA",
+      "titulo": "QUÉ HACER CON LOS RESIDUOS PELIGROSOS DE TU CASA",
+      "descripcion": "El video explica qué son los residuos posconsumo, como pilas usadas, medicamentos vencidos, luminarias, electrodomésticos y llantas, destacando que estos pueden ser peligrosos para la salud humana y el medio ambiente si no se manejan adecuadamente. Se enfatiza que no deben desecharse con la basura común, ya que contienen sustancias químicas que pueden generar contaminación o reacciones peligrosas, sino que deben llevarse a puntos especiales de recolección. Además, se promueve la participación ciudadana en jornadas organizadas para la correcta disposición de estos residuos, resaltando la importancia de la separación en la fuente y el cumplimiento de normativas ambientales para prevenir riesgos y proteger el entorno.",
+      "duracion": "00:01:44 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/8FLNVHeJnSk?si=lnxmC3EFU44rpUq8",
+      "autor": {
+        "nombre": "InformativoCVC",
+        "canal": "InformativoCVC",
+        "url": "https://www.youtube.com/@InformativoCVC",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    },
+    {
+      "id": 42,
+      "nombre": "Así funciona el SISTEMA de RECICLAJE en Bogotá😱 | Hear the Eco",
+      "titulo": "Así funciona el SISTEMA de RECICLAJE en Bogotá😱 | Hear the Eco",
+      "descripcion": "El video explica de manera clara cómo funciona realmente el reciclaje en Bogotá, enfatizando que no basta con separar los residuos en bolsa blanca y negra, sino que es fundamental que el material reciclable llegue directamente a manos de los recicladores, ya que de lo contrario termina en el relleno sanitario Doña Juana. Se resalta el papel esencial de los recicladores como recuperadores ambientales, quienes recolectan, clasifican y llevan los materiales a centros de acopio para su posterior venta y transformación. Además, se brindan recomendaciones prácticas como entregar los residuos en los horarios adecuados, usar correctamente los contenedores, mantener los materiales limpios y secos, y conocer qué elementos son realmente aprovechables. Finalmente, el video invita a asumir la responsabilidad individual en la generación de residuos, fomentar la comunicación con los recicladores y priorizar la reducción del consumo, especialmente de plásticos de un solo uso, para lograr un impacto ambiental positivo.",
+      "duracion": "00:08:40 minutos",
+      "youtube": "https://www.youtube-nocookie.com/embed/DNPclMBxTTk?si=t-reG64zLhCtNDcx",
+      "autor": {
+        "nombre": "Sofi Garces",
+        "canal": "Eco con Sofi Garcés",
+        "url": "https://www.youtube.com/@Sofigarcesc",
+        "licencia": "Licencia: Estándar de YouTube (contenido incrustado desde YouTube, sin modificación)",
+        "verificado": true
+      }
+    }
+  ]
+}
   ]
 }

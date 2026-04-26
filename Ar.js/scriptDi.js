@@ -1,9 +1,5 @@
-const toggle = document.querySelector(".menu-toggle");
 const menu = document.querySelector(".menu");
 
-toggle.addEventListener("click", () => {
-    menu.classList.toggle("active");
-});
 
 
 const fallback = "../img/Em3.jpg";
@@ -165,21 +161,5 @@ function setBackground(element, img){
     element.style.backgroundRepeat = "no-repeat";
 }
 
-const buscador = document.getElementById("buscadorCategorias");
 
-buscador.addEventListener("input", () => {
-    const texto = buscador.value.toLowerCase().trim();
-
-    const botones = document.querySelectorAll(".filtros button");
-
-    botones.forEach(btn => {
-        const categoria = btn.textContent.toLowerCase();
-
-        if (categoria.includes(texto)) {
-            btn.style.display = "inline-block";
-        } else {
-            btn.style.display = "none";
-        }
-    });
-});
 

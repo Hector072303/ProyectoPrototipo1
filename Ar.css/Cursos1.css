@@ -41,9 +41,18 @@ header {
 .filters{
     display:flex;
     gap:10px;
-    padding:0 40px 20px;
-    flex-wrap:wrap;
-    transition:0.3s;
+    padding:10px 20px;
+
+    width:100%;
+}
+
+/* Scroll bonito */
+.filters::-webkit-scrollbar{
+    height:6px;
+}
+.filters::-webkit-scrollbar-thumb{
+    background:#ccc;
+    border-radius:10px;
 }
 .external{
     background:#bfdbfe;
@@ -58,6 +67,7 @@ header {
     background:#d1fae5;
     cursor:pointer;
     white-space:nowrap;
+    flex:0 0 auto; /* 🔥 evita que se deformen */
 }
 
 .filter-btn.active,
@@ -65,45 +75,20 @@ header {
     background:#065f46;
     color:#fff;
 }
-
-
-
-
-
-
-
-/* 📱 MÓVIL Y TABLET */
-@media(max-width:768px){
-
-    .filters{
-        flex-wrap:nowrap;
-        overflow-x:auto;
-        scrollbar-width:none;
-        padding:10px 15px;
-    }
-
-    .filters::-webkit-scrollbar{
-        display:none;
-    }
-
-    .filter-btn{
-        flex:0 0 auto;
-    }
+.filters-bar{
+    display:flex;
+    align-items:flex-start;
+    gap:10px;
+    padding:10px 20px;
 }
 
-
-
-
-
-
-
-/* 💻 LAPTOP Y COMPUTADOR */
-@media(min-width:769px) and (max-width:1400px){
-
-    .filters{
-        flex-wrap:wrap;
-        justify-content:flex-start;
-    }
+.category-search{
+    width:100%;
+    max-width:300px;
+    padding:10px;
+    border:none;
+    border-radius:20px;
+    margin-bottom:10px;
 }
 
 
@@ -119,73 +104,6 @@ header {
     text-align:center;
 }
 
-/* CONTENEDOR FILTROS BASE */
-.filters{
-    display:flex;
-    gap:10px;
-    padding:0 40px 20px;
-    flex-wrap:wrap;
-    transition:all 0.3s ease;
-}
-
-/* 📱 MÓVIL / TABLET */
-@media(max-width:768px){
-
-    .filters-toggle{
-        display:block;
-    }
-
-    .filters{
-        position:absolute;
-        top:140px;
-        left:0;
-        width:100%;
-        background:#ffffff;
-        flex-direction:column;
-        padding:15px;
-        gap:10px;
-        box-shadow:0 10px 25px rgba(0,0,0,0.15);
-
-        /* 🔥 ESTADO CERRADO */
-        transform:translateY(-20px);
-        opacity:0;
-        pointer-events:none;
-    }
-
-    /* 🔥 ESTADO ABIERTO */
-    .filters.show{
-        transform:translateY(0);
-        opacity:1;
-        pointer-events:auto;
-    }
-}
-
-/* 💻 NORMAL */
-@media(min-width:769px){
-    .filters{
-        position:static;
-        max-height:none;
-        opacity:1;
-    }
-}
-
-
-
-
-/* 📺 TELEVISORES / PANTALLAS GRANDES */
-@media(min-width:1401px){
-
-    .filters{
-        justify-content:center;
-        gap:20px;
-        padding:20px 80px;
-    }
-
-    .filter-btn{
-        padding:12px 25px;
-        font-size:16px;
-    }
-}
 
 /* GRID */
 .grid{
@@ -221,8 +139,12 @@ header {
 
 .content{
     padding:15px;
-    max-height:120px; /* altura inicial */
-    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+
+    height:auto;       /* 🔥 clave */
+    overflow:visible;  /* 🔥 clave */
     transition:max-height 0.4s ease;
 }
 .category{font-size:12px;color:#059669;}
@@ -231,8 +153,8 @@ header {
 .type{
     font-size:12px;
     color:#777;
-    
-    opacity:0;
+
+    display:none; /* 🔥 oculta SOLO la descripción */
     transform:translateY(10px);
     transition:opacity 0.4s ease, transform 0.4s ease;
 }
@@ -240,6 +162,8 @@ header {
 
 .badge{
     display:inline-block;
+    align-self:flex-start; /* 🔥 CLAVE */
+    
     padding:3px 8px;
     border-radius:10px;
     font-size:11px;
@@ -247,10 +171,121 @@ header {
 }
 .free{background:#bbf7d0;color:#065f46;}
 .external{background:#bfdbfe;color:#1e40af;}
-
+.card:hover .type{
+    display:block;
+}
 
 @media(max-width:600px){
     .navbar{flex-direction:column;gap:10px;}
 }
 
 
+/* 📱 MÓVIL Y TABLET */
+@media(max-width:768px){
+
+    .filters-toggle{
+        display:block;
+    }
+
+    /* 🔥 CONTENEDOR DEL MENÚ */
+    .filters-wrapper{
+        position:fixed; /* 🔥 mejor que absolute */
+        top:80px; /* 🔥 debajo del nav */
+        left:50%;
+        transform:translateX(-50%) translateY(-20px);
+
+        width:90%;
+        max-width:400px;
+
+        background:#ffffff;
+        
+        border-radius:15px;
+        padding:15px;
+        box-shadow:0 10px 25px rgba(0,0,0,0.2);
+
+        opacity:0;
+        pointer-events:none;
+        transition:0.3s;
+        z-index:1000;
+        max-height:400px; /* 🔥 limita el contenedor */
+        overflow:hidden;  /* 🔥 evita que se salga */
+    }
+
+    /* 🔥 CUANDO SE ABRE */
+    .filters-wrapper.show{
+        transform:translateX(-50%) translateY(0);
+        opacity:1;
+        pointer-events:auto;
+    }
+
+    /* 🔥 ORGANIZACIÓN INTERNA */
+    .filters-bar{
+        display:flex;
+        flex-direction:column; /* 🔥 buscador arriba */
+        gap:10px;
+        height:100%; /* 🔥 importante */
+    }
+
+    /* 🔥 BUSCADOR */
+    .category-search{
+        width:100%;
+    }
+
+    /* 🔥 CATEGORÍAS */
+    .filters{
+        width: 100%;
+        display:flex;
+        flex-direction:column; /* 🔥 en lista */
+        overflow-y:auto;
+        overflow-x:hidden; /* 🔥 quita horizontal */
+        max-height:300px; /* 🔥 scroll interno */
+        gap:10px;
+        padding-left: 1px;
+        transition:all 0.3s ease;
+        scroll-behavior:smooth;
+    }
+    
+.filter-btn{
+    width:100%; /* 🔥 ocupan todo el ancho */
+    text-align:left;
+}
+
+    .filters::-webkit-scrollbar{
+        display:none;
+    }
+}
+.hidden{
+    display:none;
+}
+
+
+/* 📺 TELEVISORES / PANTALLAS GRANDES */
+@media(min-width:1401px){
+
+    .filters{
+        display:flex;
+        flex-wrap:nowrap; /* 🔥 NO CAMBIAR */
+        overflow-x:auto;
+        flex-direction:row; /* 🔥 aseguramos horizontal */
+        scroll-behavior:smooth;
+    }
+
+    .filter-btn{
+        padding:12px 25px;
+        font-size:16px;
+    }
+}
+
+
+/* 💻 LAPTOP Y COMPUTADOR */
+@media(min-width:769px) and (max-width:1400px){
+
+    .filters{
+        display:flex;
+        flex-wrap:nowrap; /* 🔥 NO CAMBIAR */
+        overflow-x:auto;
+        flex-direction:row; /* 🔥 aseguramos horizontal */
+        scroll-behavior:smooth;
+    }
+    
+}

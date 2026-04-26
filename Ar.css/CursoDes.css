@@ -73,7 +73,7 @@ body{
 /* BOTON CURSO */
 .btn-curso{
     display:block;
-    margin:15px auto 0 auto; /* 👈 esto lo centra */
+    margin:40px auto 0 auto; /* 👈 esto lo centra */
     background:white;
     color:#27ae60;
     border:none;

@@ -1,5 +1,5 @@
 const toggleBtn = document.getElementById('toggleBtn');
-const filters = document.getElementById('filters');
+const filters = document.querySelector('.filters-wrapper');
 
 // 👉 Abrir / cerrar menú
 toggleBtn.addEventListener('click',()=>{
@@ -36,7 +36,21 @@ fetch('../Ar.json/data.json')
 function generarCategorias(data){
 
     // Obtener categorías únicas
-    const categorias = ["all", ...new Set(data.map(c => c.categoria))];
+    let categoriasSet = new Set();
+
+    data.forEach(curso => {
+
+        // 🔥 separar por coma
+        const cats = curso.categoria.split(",");
+
+        cats.forEach(cat => {
+            const limpia = cat.trim().toLowerCase(); // limpiar espacios
+            if(limpia) categoriasSet.add(limpia);
+        });
+
+    });
+
+    const categorias = ["all", ...categoriasSet];
 
     filtersContainer.innerHTML = "";
 
@@ -49,7 +63,7 @@ function generarCategorias(data){
             btn.textContent = "Todos";
             btn.classList.add('active');
         } else {
-            btn.textContent = cat;
+            btn.textContent = cat.charAt(0).toUpperCase() + cat.slice(1);
         }
 
         btn.dataset.cat = cat;
@@ -125,10 +139,42 @@ function aplicarFiltros(){
             curso.descripcion.toLowerCase().includes(texto);
 
         const coincideCategoria =
-            categoriaActiva === "all" || curso.categoria === categoriaActiva;
+
+            categoriaActiva === "all" ||
+
+            curso.categoria
+                .toLowerCase()
+                .split(",")
+                .map(c => c.trim())
+                .includes(categoriaActiva);
 
         return coincideTexto && coincideCategoria;
     });
 
     renderCursos(filtrados);
 }
+/* filtrador de categorias */
+const searchInput = document.querySelector(".category-search");
+const filterButtons = document.querySelectorAll(".filter-btn");
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const searchInput = document.querySelector(".category-search");
+
+    searchInput.addEventListener("input", () => {
+        const texto = searchInput.value.toLowerCase().trim();
+
+        const filterButtons = document.querySelectorAll(".filter-btn"); // 🔥 AQUÍ
+
+        filterButtons.forEach(btn => {
+            const categoria = btn.textContent.toLowerCase();
+
+            if (texto === "" || categoria.includes(texto)) {
+                btn.style.display = "flex";
+            } else {
+                btn.style.display = "none";
+            }
+        });
+    });
+
+});
