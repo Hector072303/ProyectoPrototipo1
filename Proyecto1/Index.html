@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Ar.css/Style.css">
+    <link rel="stylesheet" href="../Ar.css/StyleMenus.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <img class="logo" src="../img\logo1.png">
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="menu" id="menu">
+            <a href="CursosPrincipal.html">Cursos de Reciclaje</a>
+            <a href="Directorio.html">Directorio de Empresas</a>
+            <a href="PQRS.html">Entidades Oficiales</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div>
+            <img class="logo2" src="../img/logo2.png" alt="">
+
+            <h1>Un Futuro Sostenible</h1>
+            <p>Aprende a reciclar, biodegradar y cuidar nuestro planeta</p>
+            <button class="btn" id="btnCursos">Comenzar Ahora</button>
+        </div>
+    </section>
+
+    <!-- IMPORTANCIA -->
+    <section class="section">
+        <h2 class="title">¿Por Qué Es Importante?</h2>
+        <div class="cards">
+            <div class="card">
+                <div class="icon"><img src="../img/Logo1.4.png" alt=""></div>
+                <h4>Reciclaje</h4>
+                <p>Transforma residuos en recursos</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <img src="../img/Logo1.3.png" alt="">
+                </div>
+                <h4>Biodegradación</h4>
+                <p>Descomposición natural</p>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img src="../img/Logo1.1.png" alt="">
+                </div>
+                <h4>Conservación</h4>
+                <p>Protege los recursos </p>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img src="../img/Logo1.2.png" alt="">
+                </div>
+                <h4>Energía Limpia</h4>
+                <p>Fuentes renobables</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- DIRECTORIO -->
+    <section class="section">
+        <h2 class="title">Directorio de Empresas</h2>
+
+        <!-- <div class="filters">
+            <span onclick="filter('all')" class="tag active">Todos</span>
+            <span onclick="filter('organico')" class="tag">Orgánico</span>
+            <span onclick="filter('vidrio')" class="tag">Vidrio</span>
+        </div> -->
+        <div class="filters" id="filtros-container"></div>
+
+        <div class="grid">
+
+            <!-- <div class="company" data-category="organico"  data-img="../img/Em1.png">
+                <div class="overlay"></div>
+                <div class="content">
+                    <h2>EcoOrgánicos SAS</h2>
+                    <span class="category">Orgánico</span>
+                </div>
+                <div class="extra">
+                    <h3>EcoOrgánicos SAS</h3>
+                    <span class="category">Orgánico</span>
+                    <p><strong>Definición:</strong> Gestión de residuos orgánicos para compostaje.</p>
+                    <p><strong>Materiales:</strong> Restos de comida, residuos vegetales.</p>
+                    <p><strong>Servicios:</strong> Recolección y compostaje.</p>
+                    <p><strong>Teléfono:</strong> 3001234567</p>
+                    <p><strong>Email:</strong> contacto@ecoorganicos.com</p>
+                    
+                    <div class="actions">
+                        <a class="btn" href="#">Ubicación</a>
+                        <a class="btn" href="#">Web</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="company" data-category="vidrio" data-img="../img/Em2.jpg" >
+                <div class="overlay"></div>
+                <div class="content">
+                    <h2>EcoOrgánicos SAS</h2>
+                    <span class="category">Vidrio</span>
+
+                </div>
+                <div class="extra">
+                    <h3>EcoOrgánicos SAS</h3>
+                    <span class="category">Vidrio</span>
+                    <p><strong>Definición:</strong> Gestión de residuos orgánicos para compostaje.</p>
+                    <p><strong>Materiales:</strong> Restos de comida, residuos vegetales.</p>
+                    <p><strong>Servicios:</strong> Recolección y compostaje.</p>
+                    <p><strong>Teléfono:</strong> 3001234567</p>
+                    <p><strong>Email:</strong> contacto@ecoorganicos.com</p>
+                    
+                    <div class="actions">
+                        <a class="btn" href="#">Ubicación</a>
+                        <a class="btn" href="#">Web</a>
+                    </div>
+                </div>
+                <div class="extra">
+                    <h3>EcoOrgánicos SAS</h3>
+                    <span class="category">Vidrio</span>
+                    <p><strong>Definición:</strong> Gestión de residuos orgánicos para compostaje.</p>
+                    <p><strong>Materiales:</strong> Restos de comida, residuos vegetales.</p>
+                    <p><strong>Servicios:</strong> Recolección y compostaje.</p>
+                    <p><strong>Teléfono:</strong> 3001234567</p>
+                    <p><strong>Email:</strong> contacto@ecoorganicos.com</p>
+                    
+                    <div class="actions">
+                        <a class="btn" href="#">Ubicación</a>
+                        <a class="btn" href="#">Web</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="company" data-category="organico" >
+                <div class="overlay"></div>
+                <div class="content">
+                    <h2>EcoOrgánicos SAS</h2>
+                    <span class="category">Orgánico</span>
+
+                </div>
+                <div class="extra">
+                    <h3>EcoOrgánicos SAS</h3>
+                    <span class="category">Orgánico</span>
+                    <p><strong>Definición:</strong> Gestión de residuos orgánicos para compostaje.</p>
+                    <p><strong>Materiales:</strong> Restos de comida, residuos vegetales.</p>
+                    <p><strong>Servicios:</strong> Recolección y compostaje.</p>
+                    <p><strong>Teléfono:</strong> 3001234567</p>
+                    <p><strong>Email:</strong> contacto@ecoorganicos.com</p>
+                    
+                    <div class="actions">
+                        <a class="btn" href="https://www.google.com/maps/place/Sistema+Verde+S.A.S.+E.S.P./@6.1912663,-75.5811478,17z/data=!3m1!4b1!4m6!3m5!1s0x8e44282c12d10e3f:0x8488e9b33514d8a9!8m2!3d6.1912663!4d-75.5811478!16s%2Fg%2F11c1p3m109?entry=tts&g_ep=EgoyMDI1MTExMC4wIPu8ASoASAFQAw%3D%3D&skid=df231921-6d30-41ed-a77f-eb409324d6e6">Ubicación</a>
+                        <a class="btn" href="#">Web</a>
+                    </div>
+                </div>
+            </div> -->
+            <div class="grid" id="empresas-container"></div>
+
+        </div>
+    </section>
+
+    <!-- CURSOS -->
+<section class="section">
+    <h2 class="title">Cursos Disponibles</h2>
+
+    <!-- <div class="grid">
+
+        <div class="course">
+            <img src="../img\Reci1.jpg">
+            <div class="course-content">
+                <span class="level">Principiante</span>
+                <h3>Fundamentos del Reciclaje</h3>
+                <p>Aprende los conceptos básicos de separación y clasificación de residuos para un reciclaje efectivo.</p>
+                <div class="actions1">
+                    <a class="btn" href="#">Ver Curso</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="course">
+            <img src="../img\Reci2.jpg">
+            <div class="course-content">
+                <span class="level">Intermedio</span>
+                <h3>Compostaje en Casa</h3>
+                <p>Descubre cómo crear tu propio sistema de compostaje y transformar desechos orgámicos en fertilizante.</p>
+                <div class="actions1">
+                    <a class="btn" href="#">Ver Curso</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="course">
+            <img src="../img\Reci3.jpg">
+            <div class="course-content">
+                <span class="level">Avanzado</span>
+                <h3>Economía Circular</h3>
+                <p>Entiende el ciclo completo de productos y cómo implementar prácticas de economía circular.</p>
+                <div class="actions1">
+                    <a class="btn" href="#">Ver Curso</a>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="grid" id="cursos-container"></div>
+
+    </div>
+</section>
+
+
+
+    <footer>
+        <div class="footer-container">
+
+            <!-- IZQUIERDA -->
+            <div class="footer-section">
+                <h3>Proyecto Prototipo</h3>
+                <p>Soluciones digitales modernas enfocadas en desarrollo web y tecnología.</p>
+            </div>
+
+            <!-- DERECHA -->
+            <div class="footer-section right">
+                <h3>Contacto</h3>
+                <p>Email: hjgarciabu@unadvirtual.edu.co</p>
+                <p>Email: cmriosau@unadvirtual.edu.co</p>
+                <p>Email: jdencisop@unadvirtual.edu.co</p>
+                <p>Email: jdecruzpe@unadvirtual.edu.co</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © 2026 Proyecto Prototipo | Todos los derechos reservados
+        </div>
+    </footer>
+
+
+    <script src="../Ar.js/script.js"></script>
+</body>
+
+
+</html>
