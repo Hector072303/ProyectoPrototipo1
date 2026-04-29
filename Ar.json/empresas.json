@@ -1,38 +1,80 @@
 [
   {
     "nombre": "RECOLECTORA EL TRIUNFO S.A.S",
-    "categoria": "Materiales de construccion",
+    "categoria": "Materiales de Construcción",
     "imagen": "https://recolectoraeltriunfo.com/wp-content/uploads/2024/11/cropped-LOGO-5.jpg",
     "definicion": "RECOLECTORA EL TRIUNFO S.A.S. es una empresa dedicada a la recolección, transporte y aprovechamiento de residuos de construcción y demolición (RCD), incluyendo el tratamiento autorizado de drywall, con enfoque en sostenibilidad y cumplimiento ambiental.",
-    "materiales": "Papel, Cartón, Plástico, madera, Metales, PVC, Drywall, Cable eléctrico",
-    "servicios": "Recolección y transporte, Comercialización y aprovechamiento, Tratamiento de drywall, Gestión ambiental y asesoría",
+    "materiales": "Papel, cartón, plástico, madera, metales y otros como PVC, drywall y cable eléctrico.",
+    "servicios": "Recolección y transporte, comercialización y aprovechamiento, tratamiento de drywall y gestión ambiental y asesoría.",
     "telefono": "3112699560 - 3167500645",
     "email": "papeleseltriunfo@hotmail.com",
     "ubicacion": "https://maps.app.goo.gl/4oiw2iqQB1vNJRdz8",
-    "web": "https://recolectoraeltriunfo.com/"
+    "web": "https://recolectoraeltriunfo.com/",
+    "resolucion_aprobada": "Radicado SDA - 2018ER50154 - 2018EE78872 y proceso 5017986"
   },
   {
     "nombre": "Cooperativa de Trabajo Asociado Ecoambiental El Porvenir",
-    "categoria": "Reciclaje urbano , Aprovechamiento de residuos",
+    "categoria": "Reciclaje urbano, Aprovechamiento de residuos",
     "imagen": "https://cooperativaelporvenir.com/wp-content/uploads/2024/04/Fotos-31.jpg",
     "definicion": "Es una cooperativa sin ánimo de lucro dedicada a la recuperación, recolección, clasificación y aprovechamiento de residuos sólidos reciclables, promoviendo la inclusión social de recicladores y el manejo ambiental responsable.",
-    "materiales": "Papel, Cartón, Plástico, PVC, Drywall, Madera y Metales (acero, hierro, cobre, aluminio, zinc, estaño)",
-    "servicios": "Recolección de materiales reciclables, Rutas de aprovechamiento, Capacitación y sensibilización, Certificaciones de disposición y aprovechamiento, Asesoría en gestión de residuos sólidos",
+    "materiales": "Papel, cartón, plástico, PVC, drywall, madera y metales (acero, hierro, cobre, aluminio, zinc, estaño).",
+    "servicios": "Recolección de materiales reciclables, rutas de aprovechamiento, capacitación y sensibilización, certificaciones de disposición y asesoría en gestión de residuos sólidos.",
     "telefono": "6012467834",
     "email": "gerencia@cooperativaporvenir.com",
     "ubicacion": "https://maps.app.goo.gl/ZCmsr8B3Gy2zawWD7",
-    "web": "https://cooperativaelporvenir.com/"
+    "web": "https://cooperativaelporvenir.com/",
+    "resolucion_aprobada": "Informe Técnico No. 07588 Radicado SDA No. 2022IE314416"
   },
   {
-  "nombre": "ASOCIACION NACIONAL DE RECUPERADORES AMBIENTALES – ASONDRA",
-  "categoria": "Multimaterial",
-  "imagen": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=721,fit=crop/ALpevRDnpvi6gQyv/asondra-Yan1bLn02XFZW0ln.jpg",
-  "definicion": "ASONDRA es un prestador del servicio público de aseo en la actividad de aprovechamiento, conformado por recicladores de oficio formalizados. Se enfoca en la gestión integral de residuos sólidos, promoviendo el reciclaje, la economía circular y la inclusión social.",
-  "materiales": "Papel, Cartón, Plástico, PVC, Icopor, Madera, Vidrio, Drywall y Metales (acero, hierro, cobre, aluminio, zinc, estaño)",
-  "servicios": "Reciclaje y aprovechamiento de residuos, Clasificación previa de residuos (brigadas), Recolección y transporte, Certificación de reciclaje y disposición final, Capacitaciones en manejo de residuos, Visitas a centros de aprovechamiento, Asesoría en gestión ambiental y planes de manejo (incluye RCD)",
-  "telefono": "6019370066 - 3015290415",
-  "email": "atencionalcliente@espasondra.com",
-  "ubicacion": "https://maps.app.goo.gl/2jcmyVFZLd9VawZT6",
-  "web": "https://asondraesp.com/"
-}
+    "nombre": "ASOCIACIÓN NACIONAL DE RECUPERADORES AMBIENTALES – ASONDRA",
+    "categoria": "Multimaterial",
+    "imagen": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=721,fit=crop/ALpevRDnpvi6gQyv/asondra-Yan1bLn02XFZW0ln.jpg",
+    "definicion": "ASONDRA es un prestador del servicio público de aseo en la actividad de aprovechamiento, conformado por recicladores formalizados. Se enfoca en la gestión integral de residuos sólidos, promoviendo el reciclaje, la economía circular y la inclusión social.",
+    "materiales": "Papel, cartón, plástico, PVC, icopor, madera, vidrio, drywall y metales (acero, hierro, cobre, aluminio, zinc, estaño).",
+    "servicios": "Reciclaje y aprovechamiento de residuos, clasificación previa, recolección y transporte, certificación de reciclaje, capacitaciones y asesoría en gestión ambiental.",
+    "telefono": "6019370066 - 3015290415",
+    "email": "atencionalcliente@espasondra.com",
+    "ubicacion": "https://maps.app.goo.gl/2jcmyVFZLd9VawZT6",
+    "web": "https://asondraesp.com/",
+    "resolucion_aprobada": "Informe Técnico No. 07632 Radicado SDA No. 2022IE316407"
+  },
+  {
+    "nombre": "Recolectora Ambiental BM S.A.S.",
+    "categoria": "Aprovechamiento de residuos multimaterial",
+    "imagen": "https://www.informacolombia.com/directorio-empresas/dir_informa/img/logo_informa.png",
+    "definicion": "Es una sociedad por acciones simplificada (S.A.S.) legalmente constituida en Bogotá, dedicada a la gestión integral de residuos sólidos, enfocada en la recuperación de materiales aprovechables.",
+    "materiales": "Madera, plásticos, metales, cartón, papel, vidrio, icopor, PVC y drywall.",
+    "servicios": "Recolección y transporte, acopio, clasificación, comercialización de materiales reciclados y gestión de excedentes industriales.",
+    "telefono": "3133097090 - 3138655249",
+    "email": "recolectoraambientalbm@gmail.com",
+    "ubicacion": "https://maps.app.goo.gl/BxgjnZ4Gnk6hijbX6",
+    "web": "https://www.informacolombia.com/directorio-empresas/informacion-empresa/recolectora-ambiental-bm-sas",
+    "resolucion_aprobada": "Informe Técnico No. 00604 Radicado SDA No. 2024IE17196"
+  },
+  {
+    "nombre": "Chatarrería Mi Tolima S.A.S",
+    "categoria": "Aprovechamiento de residuos multimaterial, Gestión de residuos metálicos y RAEE",
+    "imagen": "https://www.chatarreriamitolimasas.com/wp-content/uploads/2026/02/MI-TOLIMA-LOGO-SIN-FONDO.png",
+    "definicion": "Empresa con más de 25 años de experiencia en reciclaje, dedicada a la recolección y gestión ambiental de residuos aprovechables, con enfoque en desarrollo sostenible.",
+    "materiales": "Madera, plástico, metal, papel, cartón, chatarra, PVC, icopor y drywall.",
+    "servicios": "Recolección a domicilio, pesaje y pago de residuos, certificación ambiental, acopio de materiales y gestión de RAEE.",
+    "telefono": "6017519535 - 3144017513 - 3214117317",
+    "email": "cmitolima@gmail.com / chatarreriasas@gmail.com",
+    "ubicacion": "https://maps.app.goo.gl/uZqDuGGLVaND9W7k6",
+    "web": "https://www.chatarreriamitolimasas.com/",
+    "resolucion_aprobada": "Informe Técnico No. 07114 Radicado SDA No. 2023IE284399"
+  },
+  {
+    "nombre": "Reciclajes LyV S.A.S",
+    "categoria": "Aprovechamiento de residuos multimaterial, Gestión ambiental integral",
+    "imagen": "https://reciclajeslyvsas.com/wp-content/uploads/2026/04/Logo-reciclajes-LV--768x512.png.webp",
+    "definicion": "Empresa enfocada en soluciones integrales de gestión ambiental, garantizando el manejo adecuado de residuos bajo la normativa vigente.",
+    "materiales": "Madera, plásticos, metales, cartón, papel, vidrio, icopor, acrílico, PVC y drywall.",
+    "servicios": "Gestión de residuos, acopio y comercialización, asesoría ambiental y soluciones sostenibles.",
+    "telefono": "3217752429",
+    "email": "reciclajes62531@gmail.com",
+    "ubicacion": "https://maps.app.goo.gl/X7CQNYaV1SqRczHL6",
+    "web": "https://reciclajeslyvsas.com/",
+    "resolucion_aprobada": "Informe Técnico No. 04931 Radicado SDA No. 2023IE208516"
+  }
 ]
