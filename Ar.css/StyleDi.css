@@ -22,7 +22,7 @@ header {
 }
 .filtros{
     position: sticky;
-    top: 70px; /* 🔥 AJUSTA SEGÚN ALTURA DEL NAV */
+    top: 95px; /* 🔥 AJUSTA SEGÚN ALTURA DEL NAV */
     z-index: 100; /* menor que el nav */
     background:#0f172a;
     padding:15px;
